@@ -212,7 +212,21 @@
  *   );
  * @endcode
  */
-$databases = array();
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'mywebsite',
+      'username' => 'user',
+      'password' => 'user',
+      'host' => 'localhost',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
 
 /**
  * Access control for update.php script.
@@ -244,7 +258,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = '';
+$drupal_hash_salt = 'KqzyeFb3iK0G_Qx8pvnWJNTT3IvVAsFuwryrAr0wrt8';
 
 /**
  * Base URL (optional).
