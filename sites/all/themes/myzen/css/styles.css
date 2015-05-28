@@ -22,9 +22,42 @@
 /* @import "theme-B.css"; */
 
 body {
-  background: #CCC;
+  background: #F5F5F5;
   color: #333;
   font-size: 14px;
-  line-height:1.5;
+  line-height:1.6;
   font-family: Helvetiva, Verdana, Arial, sans-serif;
+}
+
+a,a:link {
+  color:#e54739;
+  text-decoration:none;
+
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+h2 {
+  margin-bottom:4px;
+}
+
+p{
+  margin-top:4px;
+  margin-bottom:10px;
+}
+
+.field-type-text-with-summary p {
+  background: #ededed;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:4px;
+}
+
+#block-user-login {
+  background: #ededed;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:4px;
 }
